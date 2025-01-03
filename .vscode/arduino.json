@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyUSB0",
+    "sketch": "get_temp/get_temp.ino"
+}
