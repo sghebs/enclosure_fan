@@ -1,2 +1,2 @@
 # enclosure_fan
-regolazione temperatura per ua stampante 3d
+regolazione temperatura per un enclosure per stampante 3d
