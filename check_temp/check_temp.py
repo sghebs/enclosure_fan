@@ -21,7 +21,7 @@ try:
         if ser.in_waiting > 0:
             data = ser.readline().decode('utf-8').strip()  # Leggi una riga e rimuovi spazi extra
             try:
-                temperature = int(data)  # Converti il dato in int
+                temperature = float(data)  # Converti il dato in int
                 timestamps.append(int(time.time() - start_time))  # Aggiungi il timestamp
                 temperatures.append(temperature)  # Aggiungi la temperatura
                 print(f"Temperatura: {temperature}°C")

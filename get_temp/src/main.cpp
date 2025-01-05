@@ -22,5 +22,5 @@ void loop() {
 }
 
 void layout() {
-  Serial.println(String(double(dht.celsius) / 10, 0));
+  Serial.println(String(double(dht.celsius) / 10, 1));
 }

@@ -19,7 +19,8 @@
                 "/home/gab/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard",
                 "/usr/lib/gcc/avr/5.4.0/include",
                 "/usr/lib/gcc/avr/5.4.0/include-fixed",
-                "/usr/lib/avr/include"
+                "/usr/lib/avr/include",
+                "${workspaceFolder}/get_temp/.pio/libdeps/uno/SDHT"
             ],
             "forcedInclude": [
                 "/home/gab/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h"
