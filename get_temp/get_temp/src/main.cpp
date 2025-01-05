@@ -1,6 +1,8 @@
-#include "libraries/SDHT/SDHT.h"
+#include <Arduino.h>
+#include "SDHT.h"
 
 SDHT dht;
+void layout();
 
 void setup() {
   // put your setup code here, to run once:
